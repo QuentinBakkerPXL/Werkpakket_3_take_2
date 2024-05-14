@@ -1,0 +1,65 @@
+color: null
+fieldLayouts:
+  9cf280ff-05c9-428f-bc77-f8bb380aba62:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8593d7a4-b06a-4f70-b8ec-472eaa70fa6a # bannerImageSet
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61374938-cf27-4a66-9251-e5a593a12dbe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9605e65d-3935-4fba-92dd-581034db41f7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1b6c0ca4-63ac-442d-bd62-aa75926a42d0
+        userCondition: null
+handle: welcomehome
+hasTitleField: true
+icon: house
+name: welcomeHome
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

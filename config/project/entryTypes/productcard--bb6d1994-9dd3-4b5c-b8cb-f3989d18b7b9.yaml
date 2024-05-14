@@ -1,0 +1,95 @@
+color: null
+fieldLayouts:
+  119a147c-4239-4158-8d90-ce0584acfa0f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c7fcb991-765d-46c8-ad99-0dcb9c138227
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 41790cbe-d7bb-4e1d-916a-c0caf50704a1 # productImage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0ac0c0a4-6ec8-4d90-b278-244cfee3f9a5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5f781169-c967-447b-b61f-93bbc1d5ace7 # productTitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f98ac111-f64a-4090-a655-a3fe7f9335a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e91ba71a-c282-4bb7-83df-0ae627b2fca0 # productPrice
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 497d2cdd-7cf4-44c6-90d8-82edd8c1ef0c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f18dca84-527c-480f-856a-d6a376e8df09
+        userCondition: null
+handle: productcard
+hasTitleField: true
+icon: watch-smart
+name: productCard
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

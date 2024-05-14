@@ -1,0 +1,36 @@
+columnSuffix: null
+handle: bannerimageset
+instructions: 'Here comes the image used in the home banner'
+name: bannerImageSet
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds: null
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:363b05aa-e8b4-47cd-86fb-d0220a4f46da' # bannerImage
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  previewMode: full
+  restrictFiles: false
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:ddc804c8-bffd-4a07-91f7-74952c334afb' # productWatches
+  restrictedLocationSubpath: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:363b05aa-e8b4-47cd-86fb-d0220a4f46da' # bannerImage
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets
