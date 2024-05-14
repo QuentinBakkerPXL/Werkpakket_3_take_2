@@ -22,6 +22,6 @@ siteSettings:
   d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
     enabledByDefault: true
     hasUrls: true
-    template: homebanner/_entry
+    template: homepage.twig
     uriFormat: homebanner
 type: single

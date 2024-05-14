@@ -82,10 +82,10 @@ fieldLayouts:
         name: Content
         uid: f18dca84-527c-480f-856a-d6a376e8df09
         userCondition: null
-handle: productcard
+handle: product
 hasTitleField: true
 icon: watch-smart
-name: productCard
+name: Product
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
