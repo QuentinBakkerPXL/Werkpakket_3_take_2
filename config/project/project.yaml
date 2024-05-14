@@ -1,12 +1,43 @@
-dateModified: 1714488265
+dateModified: 1715682196
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  bannerimage:
+    hasUrls: false
+    name: bannerImage
+    settings:
+      path: '@webroot/banner'
+    type: craft\fs\Local
+    url: null
+  products:
+    hasUrls: false
+    name: products
+    settings:
+      path: '@webroot/files'
+    type: craft\fs\Local
+    url: null
 meta:
   __names__:
+    1e578cda-fb71-4c64-bcc9-533ab720270c: homeBanner # homeBanner
+    5a6f16c2-c4a6-4928-843b-39f6f133bdcc: welcomeHome # welcomeHome
+    5f781169-c967-447b-b61f-93bbc1d5ace7: productTitle # productTitle
     6fa87c78-1100-4f04-8cb2-f41fa486e80c: Timecraft # Timecraft
+    17a564f6-c9a6-4ef6-8013-dbe306818bd9: productCard # productCard
+    363b05aa-e8b4-47cd-86fb-d0220a4f46da: bannerImage # bannerImage
+    8593d7a4-b06a-4f70-b8ec-472eaa70fa6a: bannerImageSet # bannerImageSet
+    41790cbe-d7bb-4e1d-916a-c0caf50704a1: productImage # productImage
+    bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9: productCard # productCard
     d5ffdd0e-008d-450c-9cd2-3dff37e2134a: Timecraft # Timecraft
+    ddc804c8-bffd-4a07-91f7-74952c334afb: productWatches # productWatches
+    e91ba71a-c282-4bb7-83df-0ae627b2fca0: productPrice # productPrice
+plugins:
+  navigate:
+    edition: standard
+    enabled: true
+    licenseKey: OUHSQH4O2DCF4QRB7OQJQFM5
+    schemaVersion: 2.4.0
 system:
   edition: pro
   live: true
