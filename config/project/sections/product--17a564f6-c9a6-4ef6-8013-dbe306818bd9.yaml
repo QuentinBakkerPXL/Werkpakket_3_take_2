@@ -2,9 +2,9 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   - bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9 # Product
-handle: products
+handle: product
 maxAuthors: 1
-name: Products
+name: Product
 previewTargets:
   -
     __assoc__:
