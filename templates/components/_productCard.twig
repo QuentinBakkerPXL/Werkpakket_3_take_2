@@ -1,12 +1,13 @@
 {% set products = craft.entries.section('product').all() %}
 
-
 <section>
     <div class="gallery">
         {% for product in products %}
+            {% set image = product.productimage.one() %}
             <div class="product">
-                <img src="{{ product.productimage }}" alt={{ product.title }}>
+                <img src="{{image.url}}" alt="{{ product.title }}">
                 <h1>{{ product.title }}</h1>
+{#                <p>{{ product.productStock }}</p>#}
             </div>
         {% endfor %}
     </div>

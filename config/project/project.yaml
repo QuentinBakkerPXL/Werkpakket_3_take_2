@@ -1,4 +1,4 @@
-dateModified: 1715708624
+dateModified: 1715795100
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -12,12 +12,12 @@ fs:
     type: craft\fs\Local
     url: null
   products:
-    hasUrls: false
+    hasUrls: true
     name: products
     settings:
       path: '@webroot/files'
     type: craft\fs\Local
-    url: null
+    url: '@baseUrl/files'
 meta:
   __names__:
     1e578cda-fb71-4c64-bcc9-533ab720270c: homeBanner # homeBanner
