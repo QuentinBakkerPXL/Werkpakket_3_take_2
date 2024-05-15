@@ -1,4 +1,4 @@
-{% set products = craft.entries.section('product').all() %}
+{% set products = craft.entries.section('product').limit(3) %}
 
 <section>
     <div class="gallery">
