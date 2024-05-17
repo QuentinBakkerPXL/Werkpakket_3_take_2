@@ -66,7 +66,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: e91ba71a-c282-4bb7-83df-0ae627b2fca0 # productPrice
+            fieldUid: 1dcd3c75-977e-4304-801a-ba1d8a3ebab9 # productprice
             handle: null
             includeInCards: false
             instructions: null
@@ -75,7 +75,22 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 497d2cdd-7cf4-44c6-90d8-82edd8c1ef0c
+            uid: 693c9ece-18ad-485c-8ec8-9dbd3e9f6f5b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ca1e00e3-7c4d-4385-8038-1b7cc8aa7a39 # productdescription
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83566eab-7f55-470f-b806-041ac627406c
             userCondition: null
             warning: null
             width: 100

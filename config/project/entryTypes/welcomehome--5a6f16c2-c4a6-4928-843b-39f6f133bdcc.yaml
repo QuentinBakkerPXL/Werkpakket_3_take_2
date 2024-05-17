@@ -49,7 +49,37 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Content
+          -
+            elementCondition: null
+            fieldUid: 5f3d144b-dbd8-4f86-88fa-08a430235c88 # whatshottitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5c859b3e-9981-45e3-823c-2cbc0808c6ec
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c49028ea-4679-4bf1-a89f-761652c237ba # productcardsthree
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3b697b4d-c0d5-43b3-99bb-737745b30885
+            userCondition: null
+            warning: null
+            width: 100
+        name: HomepageContent
         uid: 1b6c0ca4-63ac-442d-bd62-aa75926a42d0
         userCondition: null
 handle: welcomehome

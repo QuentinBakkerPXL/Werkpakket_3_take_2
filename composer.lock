@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b656d7750202ebc9f9869504b3e8fe0",
+    "content-hash": "83d28e24972b4cd56d11cba52338fd27",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -233,11 +233,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.1.3",
+            "version": "5.1.4",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/495d5bd84e77d064e304f495493a0832943c1faa",
-                "reference": "495d5bd84e77d064e304f495493a0832943c1faa",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/114c19dbbb0a64ef83461b3523f0f2753bab7ab4",
+                "reference": "114c19dbbb0a64ef83461b3523f0f2753bab7ab4",
                 "shasum": ""
             },
             "require": {
@@ -334,7 +334,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-05-14T18:49:55+00:00"
+            "time": "2024-05-17T20:04:01+00:00"
         },
         {
             "name": "craftcms/plugin-installer",
@@ -2520,11 +2520,11 @@
         },
         {
             "name": "studioespresso/craft-navigate",
-            "version": "5.1.1",
+            "version": "5.1.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/studioespresso/craft-navigate/zipball/31eeffd67fa35df0e2bd2e568e162f316e0db3dd",
-                "reference": "31eeffd67fa35df0e2bd2e568e162f316e0db3dd",
+                "url": "https://api.github.com/repos/studioespresso/craft-navigate/zipball/1a48c723c4e0d0d9a0d86f0e947768d32e2734d4",
+                "reference": "1a48c723c4e0d0d9a0d86f0e947768d32e2734d4",
                 "shasum": ""
             },
             "require": {
@@ -2571,7 +2571,7 @@
                 "docs": "https://github.com/studioespresso/craft-navigate/blob/v5/README.md",
                 "issues": "https://github.com/studioespresso/craft-navigate/issues"
             },
-            "time": "2024-05-03T18:52:07+00:00"
+            "time": "2024-05-16T18:22:59+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

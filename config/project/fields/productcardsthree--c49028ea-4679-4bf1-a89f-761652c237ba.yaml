@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: productcardsthree
+instructions: null
+name: productcardsthree
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:17a564f6-c9a6-4ef6-8013-dbe306818bd9' # Product
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

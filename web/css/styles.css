@@ -100,10 +100,15 @@ body {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.info p {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 .info .price {
     margin: 0;
     font-size: 30px;
     color: #5b95d4;
     padding-bottom: 10px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
