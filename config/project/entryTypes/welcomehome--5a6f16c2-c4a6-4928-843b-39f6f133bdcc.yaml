@@ -6,21 +6,6 @@ fieldLayouts:
         elementCondition: null
         elements:
           -
-            elementCondition: null
-            fieldUid: 8593d7a4-b06a-4f70-b8ec-472eaa70fa6a # bannerImageSet
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 61374938-cf27-4a66-9251-e5a593a12dbe
-            userCondition: null
-            warning: null
-            width: 100
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -51,6 +36,36 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 85751bc1-0bed-49a2-8899-09d9703e42f1 # bannertext
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bea823c7-d776-4394-8470-3a48742a8967
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8593d7a4-b06a-4f70-b8ec-472eaa70fa6a # bannerImageSet
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61374938-cf27-4a66-9251-e5a593a12dbe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 5f3d144b-dbd8-4f86-88fa-08a430235c88 # whatshottitle
             handle: null
             includeInCards: false
@@ -61,21 +76,6 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 5c859b3e-9981-45e3-823c-2cbc0808c6ec
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: c49028ea-4679-4bf1-a89f-761652c237ba # productcardsthree
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 3b697b4d-c0d5-43b3-99bb-737745b30885
             userCondition: null
             warning: null
             width: 100

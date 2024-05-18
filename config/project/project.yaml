@@ -1,4 +1,4 @@
-dateModified: 1715976370
+dateModified: 1716062688
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -21,15 +21,17 @@ fs:
 meta:
   __names__:
     1dcd3c75-977e-4304-801a-ba1d8a3ebab9: productprice # productprice
-    1e578cda-fb71-4c64-bcc9-533ab720270c: Homepage # Homepage
+    1e578cda-fb71-4c64-bcc9-533ab720270c: homepage # homepage
     5a6f16c2-c4a6-4928-843b-39f6f133bdcc: welcomeHome # welcomeHome
     5f3d144b-dbd8-4f86-88fa-08a430235c88: whatshottitle # whatshottitle
     5f781169-c967-447b-b61f-93bbc1d5ace7: productTitle # productTitle
     6fa87c78-1100-4f04-8cb2-f41fa486e80c: Timecraft # Timecraft
+    7fe907d0-378a-418e-bf9c-ca489139fc6a: test # test
     17a564f6-c9a6-4ef6-8013-dbe306818bd9: Product # Product
     363b05aa-e8b4-47cd-86fb-d0220a4f46da: bannerImage # bannerImage
     8593d7a4-b06a-4f70-b8ec-472eaa70fa6a: bannerImageSet # bannerImageSet
     41790cbe-d7bb-4e1d-916a-c0caf50704a1: productImage # productImage
+    85751bc1-0bed-49a2-8899-09d9703e42f1: bannertext # bannertext
     bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9: Product # Product
     c49028ea-4679-4bf1-a89f-761652c237ba: productcardsthree # productcardsthree
     ca1e00e3-7c4d-4385-8038-1b7cc8aa7a39: productdescription # productdescription

@@ -4,7 +4,7 @@ entryTypes:
   - 5a6f16c2-c4a6-4928-843b-39f6f133bdcc # welcomeHome
 handle: homepage
 maxAuthors: 1
-name: Homepage
+name: homepage
 previewTargets:
   -
     __assoc__:
@@ -22,6 +22,6 @@ siteSettings:
   d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
     enabledByDefault: true
     hasUrls: true
-    template: homepage.twig
+    template: index.twig
     uriFormat: __home__
 type: single
