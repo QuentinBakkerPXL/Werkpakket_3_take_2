@@ -1,3 +1,23 @@
-{% include "components/_navbar.twig" %}
-{% include "components/_footer.twig" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    {% do craft.app.view.registerCssFile('@web/css/general.css') %}
+</head>
+<header>
+    {% include "components/_navbar.twig" %}
+</header>
 
+
+
+
+{% include "components/_productCard.twig" %}
+
+{% include "components/_detailCard.twig" %}
+<footer>
+    {% include "components/_footer.twig" %}
+</footer>
+
+</html>

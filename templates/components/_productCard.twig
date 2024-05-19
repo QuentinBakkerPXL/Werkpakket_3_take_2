@@ -9,23 +9,20 @@
 </head>
 <body>
 <section>
-    <div class="gallery">
+    <div class="wrapper">
         {% for product in products %}
             {% set image = product.productimage.one() %}
             <div class="single-card">
-                <div class="product">
-                    <div class="img-area">
-                        <img src="{{ image.url }}" alt="{{ product.title }}">
-                    </div>
+                <div class="img-area">
+                    <img src="{{ image.url }}" alt="{{ product.title }}">
                     <div class="overlay">
-                        <button class="add-to-cart">Add to cart</button>
                         <button class="view-details">View details</button>
                     </div>
-                    <div class="info">
-                        <h3>{{ product.title }}</h3>
-                        <p class="price">${{ product.productpricetag }}</p>
-                        <p class="description">{{ product.productdescription }}</p>
-                    </div>
+                </div>
+                <div class="info">
+                    <h3>{{ product.title }}</h3>
+                    <p class="price">{{ product.productpricetag }}</p>
+                    <p class="description">{{ product.productdescription }}</p>
                 </div>
             </div>
         {% endfor %}
