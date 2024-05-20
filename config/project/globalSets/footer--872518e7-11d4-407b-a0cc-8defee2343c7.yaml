@@ -1,0 +1,72 @@
+fieldLayouts:
+  5e6fc35c-5150-4b26-a87e-fc4960a7f5d7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 779c6a13-befe-47c5-9729-bea14ce40020 # websitetitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cac50831-0a5a-497b-bda1-cec29fccb178
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1bbc2744-dc6c-4446-851d-9125ea999d51 # websitemail
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7adb5cc6-5b9a-4ec7-bed8-f93e03b4d097
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 33d77994-96c2-4629-b80d-1c398231f579 # websitephone
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c2c999ca-2ad4-4683-94d1-9b31095ca3cb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d80a575d-21d6-4959-b9b5-3153bbc94a68 # websitelocation
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e3ea049b-3bb3-4fee-b5a4-c128ccb7e158
+            userCondition: null
+            warning: null
+            width: 100
+        name: footercontent
+        uid: 2808c22a-4d76-4157-81ce-df28e7577854
+        userCondition: null
+handle: footer
+name: footer
+sortOrder: 1
