@@ -1,24 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Producten</title>
-    {% do craft.app.view.registerCssFile('@web/css/BannerHome.css') %}
-</head>
-<section>
-    <div class="bg-image">
-        <div class="filter-blur">
+ {% do craft.app.view.registerCssFile('@web/css/BannerHome.css') %}
 
+{% extends "_layout.twig" %}
+
+{% block content %}
+
+    {% set homePageEntry = craft.entries.section('homepage').type("welcomehome").one() %}
+
+    {% set image = homePageEntry.bannerimageset.one() %}
+
+    <section>
+        <div class="bg-image">
+            <div class="filter-blur">
+                <img src="{{ image.url }}" alt="{{ homePageEntry.title }}" class="homepage-header-image">
+            </div>
         </div>
-    </div>
-    <div  class="banner">
-        <h1>Time to brighten your wrist <br>with high-tech watches...</h1>
-    </div>
+        <div  class="banner">
+            <h1>{{ homePageEntry.bannertext }}</h1>
+        </div>
+        <main>
+            <h2>{{ homePageEntry.whatshottitle}}</h2>
+        </main>
 
-    <main>
-        <h2>What's HOT right now?</h2>
-    </main>
+    </section>
+    {% include 'components/_productCard.twig' %}
 
-</section>
-</html>
+{% endblock %}

@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     position: fixed;
     background-color: #F2F2F2;
@@ -9,28 +18,34 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 a {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.logo a{
+.logo a {
     color: #212121;
     text-decoration: none;
 }
+
 .logo a:hover {
     color: #5b95d4;
 }
+
 .header .logo {
     font-size: 32px;
     color: #212121;
     text-decoration: none;
     font-weight: 700;
+}
 
+.navbar {
+    display: flex;
 }
 
 .navbar a {
-    position: relative;
     font-size: 18px;
     color: #212121;
     font-weight: 500;
@@ -41,3 +56,5 @@ a {
 .navbar a:hover, .logo:hover {
     color: #5b95d4;
 }
+
+
