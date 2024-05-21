@@ -1,21 +1,7 @@
-.bg-image {
-    background-image: url("my-werkpakket-project/web/banner/Background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.homepage-header-image {
     width: 100%;
-    height: 1024px;
-    position: relative;
+    filter: blur(15px);
 }
-
-.bg-image .filter-blur {
-    background: rgba(240, 227, 227, 0.5);
-    backdrop-filter: blur(10px);
-    position: absolute;
-    width: 100%;
-    height: 1024px;
-}
-
 .banner {
     display: flex;
     align-items: center;
@@ -27,7 +13,8 @@
 
 .banner h1 {
     font-size: 75px;
-    color: #212121;
+    /*color: #212121;*/
+    color: white;
     position: absolute;
     margin-bottom: 60%;
 }
@@ -38,4 +25,8 @@ h2 {
     flex-direction: column;
     text-align: center;
     font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
 }
+

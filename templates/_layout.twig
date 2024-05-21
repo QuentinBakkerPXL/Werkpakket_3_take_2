@@ -7,7 +7,9 @@
 </head>
 <body>
 <header>
+    {% block nav %}
     {% include "components/_navbar.twig" %}
+    {% endblock %}
 </header>
 
 <main>
@@ -17,7 +19,9 @@
 </main>
 
 <footer>
+    {% block footer %}
     {% include "components/_footer.twig" %}
+    {% endblock %}
 </footer>
 
 </body>
