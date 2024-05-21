@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9 # Product
+handle: allProducts
+maxAuthors: 1
+name: 'All products'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
+    enabledByDefault: true
+    hasUrls: true
+    template: overzichtpagina.twig
+    uriFormat: all-products
+type: single

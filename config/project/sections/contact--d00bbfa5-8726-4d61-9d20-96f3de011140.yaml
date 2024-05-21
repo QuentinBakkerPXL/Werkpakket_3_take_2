@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - bee130bb-e764-442c-bcfe-29d7ff9e7161 # contact
+handle: contact
+maxAuthors: 1
+name: Contact
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
+    enabledByDefault: true
+    hasUrls: true
+    template: contactpagina.twig
+    uriFormat: contact
+type: single
