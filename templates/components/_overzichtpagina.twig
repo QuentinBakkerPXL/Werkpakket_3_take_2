@@ -1,0 +1,53 @@
+{% paginate craft.entries.section('product').limit(6) as pageInfo, pageEntries %}
+
+<html lang="en">
+{% do craft.app.view.registerCssFile('@web/css/overzichtstyles.css') %}
+<body>
+<section>
+
+    <div class="introductie">
+        <h1 class="titeloverzicht">Timecraft</h1>
+        <p class="omschrijvingoverzicht">Experience the art of innovation and craftsmanship in every watch we create. Our timepieces are meticulously handcrafted, fusing cutting-edge technology with timeless design. Each watch is a testament to dedication and expertise, reflecting sophistication and individuality.</p>
+    </div>
+
+    <div class="filters">
+        <button class="" @click="">
+            Gen 1
+        </button>
+        <button class="" @click="">
+            Seasonal
+        </button>
+        <button class="" @click="">
+            New
+        </button>
+    </div>
+
+    <div class="wrapper">
+        {% for product in pageEntries %}
+            {% set image = product.productimage.one() %}
+            <div class="single-card">
+                <div class="img-area">
+                    <img src="{{ image.url }}" alt="{{ product.title }}">
+                    <div class="overlay">
+                        <button class="view-details">View details</button>
+                    </div>
+                </div>
+                <div class="info">
+                    <h3>{{ product.title }}</h3>
+                    <p class="price">{{ product.productpricetag }}</p>
+                    <p class="description">{{ product.productdescription }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="pagination">
+        {% for i in 1..pageInfo.totalPages %}
+            <button onclick="location.href='{{ pageInfo.getPageUrl(i) }}'" class="page-numbers{% if pageInfo.currentPage == i %} active{% endif %}">
+                {{ i }}
+            </button>
+        {% endfor %}
+    </div>
+</section>
+</body>
+</html>
