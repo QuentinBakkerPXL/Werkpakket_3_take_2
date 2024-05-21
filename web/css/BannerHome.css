@@ -1,6 +1,6 @@
 .homepage-header-image {
     width: 100%;
-    filter: blur(15px);
+    filter: blur(5px);
 }
 .banner {
     display: flex;
@@ -13,10 +13,14 @@
 
 .banner h1 {
     font-size: 75px;
-    /*color: #212121;*/
-    color: white;
+    color: #212121;
     position: absolute;
     margin-bottom: 60%;
+}
+ .backdrop {
+    background: white;
+    padding: 5px;
+    display: inline-block;
 }
 
 h2 {
