@@ -1,4 +1,4 @@
-dateModified: 1716231526
+dateModified: 1716314110
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -48,6 +48,10 @@ meta:
     e9f5ef54-fd07-4a91-b53e-543fd17c40af: websitename # websitename
     e91ba71a-c282-4bb7-83df-0ae627b2fca0: productPrice # productPrice
 plugins:
+  freeform:
+    edition: express
+    enabled: true
+    schemaVersion: 5.1.0
   navigate:
     edition: standard
     enabled: true
