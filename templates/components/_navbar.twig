@@ -20,3 +20,34 @@
 </section>
 </body>
 </html>
+
+
+{#{% block content %}#}
+
+{#    {%  set navMain = craft.navigate.raw('navigation') %}#}
+{#    <!DOCTYPE html>#}
+{#    <html lang="en">#}
+{#    <head>#}
+{#        <meta charset="UTF-8">#}
+{#        <meta name="viewport" content="width=device-width, initial-scale=1.0">#}
+{#        <title>Navbar</title>#}
+{#        {% do craft.app.view.registerCssFile('@web/css/Nav.css') %}#}
+{#    </head>#}
+{#    <body>#}
+{#    <section>#}
+{#        {%  for node in navMain %}#}
+{#            <header class="header">#}
+{#                <div class="logo">#}
+{#                    <a href="{{ node.url }}">{{ node.name }}</a>#}
+{#                </div>#}
+{#                <nav class="navbar">#}
+{#                    <a href="{{ node.url }}">{{ node.name }}</a>#}
+{#                    <a href="{{ node.url }}">{{ node.name }}</a>#}
+{#                </nav>#}
+{#            </header>#}
+{#        {% endfor %}#}
+{#    </section>#}
+{#    </body>#}
+{#    </html>#}
+
+{#{% endblock %}#}
