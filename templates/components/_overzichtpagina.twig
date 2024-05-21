@@ -1,7 +1,13 @@
 {% paginate craft.entries.section('product').limit(6) as pageInfo, pageEntries %}
 
+<!DOCTYPE html>
 <html lang="en">
-{% do craft.app.view.registerCssFile('@web/css/overzichtstyles.css') %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Overview</title>
+    {% do craft.app.view.registerCssFile('@web/css/overzichtstyles.css') %}
+</head>
 <body>
 <section>
 
@@ -11,15 +17,9 @@
     </div>
 
     <div class="filters">
-        <button class="" @click="">
-            Gen 1
-        </button>
-        <button class="" @click="">
-            Seasonal
-        </button>
-        <button class="" @click="">
-            New
-        </button>
+        <button class="button" @click="">Gen 1</button>
+        <button class="button" @click="">Seasonal</button>
+        <button class="button" @click="">New</button>
     </div>
 
     <div class="wrapper">
@@ -34,7 +34,7 @@
                 </div>
                 <div class="info">
                     <h3>{{ product.title }}</h3>
-                    <p class="price">{{ product.productpricetag }}</p>
+                    <p class="price">${{ product.productpricetag }}</p>
                     <p class="description">{{ product.productdescription }}</p>
                 </div>
             </div>
@@ -43,7 +43,7 @@
 
     <div class="pagination">
         {% for i in 1..pageInfo.totalPages %}
-            <button onclick="location.href='{{ pageInfo.getPageUrl(i) }}'" class="page-numbers{% if pageInfo.currentPage == i %} active{% endif %}">
+            <button onclick="location.href='{{ pageInfo.getPageUrl(i) }}'" class="button{% if pageInfo.currentPage == i %} active{% endif %}">
                 {{ i }}
             </button>
         {% endfor %}
@@ -51,3 +51,4 @@
 </section>
 </body>
 </html>
+

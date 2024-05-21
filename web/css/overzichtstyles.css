@@ -23,9 +23,10 @@
     color: #F2F2F2;
 }
 
-.filters .button-active, .pagination .button-active  {
+.filters .button-active, .pagination .button-active {
     background-color: #c76744;
 }
+
 
 .wrapper {
     display: flex;
@@ -33,6 +34,7 @@
     justify-content: center;
     gap: 20px;
     margin: 6% auto 0;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .single-card {
