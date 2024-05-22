@@ -1,6 +1,6 @@
 {% set products = craft.entries.section('product').orderBy("RAND()").limit(3).all() %}
 <html lang="en">
-    {% do craft.app.view.registerCssFile('@web/css/styles.css') %}
+{% do craft.app.view.registerCssFile('@web/css/styles.css') %}
 <body>
 <section>
     <div class="wrapper">
@@ -16,7 +16,9 @@
                 <div class="info">
                     <h3>{{ product.title }}</h3>
                     <p class="price">${{ product.productpricetag }}</p>
-                    <p class="description">{{ product.productdescription }}</p>
+                    {% set words = product.productdescription|split(' ') %}
+                    {% set truncatedDescription = words|length > 10 ? words|slice(0, 10)|join(' ') ~ '...' : product.productdescription %}
+                    <p class="description">{{ truncatedDescription }}</p>
                 </div>
             </div>
         {% endfor %}

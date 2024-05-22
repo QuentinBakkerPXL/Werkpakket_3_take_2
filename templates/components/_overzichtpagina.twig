@@ -35,7 +35,9 @@
                 <div class="info">
                     <h3>{{ product.title }}</h3>
                     <p class="price">${{ product.productpricetag }}</p>
-                    <p class="description">{{ product.productdescription }}</p>
+                    {% set words = product.productdescription|split(' ') %}
+                    {% set truncatedDescription = words|length > 10 ? words|slice(0, 10)|join(' ') ~ '...' : product.productdescription %}
+                    <p class="description">{{ truncatedDescription }}</p>
                 </div>
             </div>
         {% endfor %}
