@@ -1,0 +1,25 @@
+columnSuffix: null
+handle: filterproducts
+instructions: null
+name: FilterProducts
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:ed6e297a-36d4-4752-b580-4724f4f062ba' # FilterGeneration1
+    - 'section:7d60b036-9bc8-4786-a88e-ea937012a1bd' # FilterNew
+    - 'section:c2f14014-2eaa-4837-9501-45634236dd4e' # FilterSeasonal
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

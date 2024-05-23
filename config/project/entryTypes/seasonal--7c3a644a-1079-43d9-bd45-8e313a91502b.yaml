@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  d893d1cb-5326-46c9-bd46-74e54c49b146:
+  64ff64bc-887c-4ff3-b018-9190e5fb8b4f:
     tabs:
       -
         elementCondition: null
@@ -30,17 +30,17 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 8bd39101-0613-40fb-9fc4-9fc593244578
+            uid: 6fa8c486-0de2-4996-89ad-11a648edaae2
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 7049f343-bb71-4536-96a6-c610d1d2f64b
+        uid: c49e2712-8b57-422a-9817-df7e36dc7cf4
         userCondition: null
-handle: test
+handle: seasonal
 hasTitleField: true
 icon: ''
-name: test
+name: Seasonal
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

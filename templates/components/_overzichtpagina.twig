@@ -16,12 +16,23 @@
         <p class="omschrijvingoverzicht">Experience the art of innovation and craftsmanship in every watch we create. Our timepieces are meticulously handcrafted, fusing cutting-edge technology with timeless design. Each watch is a testament to dedication and expertise, reflecting sophistication and individuality.</p>
     </div>
 
+{#    <div class="filters">#}
+{#        <button class="button" @click="">Gen 1</button>#}
+{#        <button class="button" @click="">Seasonal</button>#}
+{#        <button class="button" @click="">New</button>#}
+{#    </div>#}
     <div class="filters">
-        <button class="button" @click="">Gen 1</button>
-        <button class="button" @click="">Seasonal</button>
-        <button class="button" @click="">New</button>
+        <label class="filter-label">
+            <input type="checkbox" id="gen1" name="gen1" class="filter-checkbox"> Gen 1
+        </label>
+        <label class="filter-label">
+            <input type="checkbox" id="seasonal" name="seasonal" class="filter-checkbox"> Seasonal
+        </label>
+        <label class="filter-label">
+            <input type="checkbox" id="new" name="new" class="filter-checkbox"> New
+        </label>
+        <button class="button" type="submit">Filter</button>
     </div>
-
     <div class="wrapper">
         {% for product in pageEntries %}
             {% set image = product.productimage.one() %}
