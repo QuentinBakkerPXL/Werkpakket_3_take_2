@@ -1,26 +1,38 @@
-{% paginate craft.entries.section('product').limit(6) as pageInfo, pageEntries %}
+{% do craft.app.view.registerCssFile('@web/css/overzichtstyles.css') %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Overview</title>
-    {% do craft.app.view.registerCssFile('@web/css/overzichtstyles.css') %}
-</head>
+{% set filterQuery = craft.app.request.getParam('filter') %}
+
+{% set relationParam = ['and'] %}
+
+{% if filterQuery %}
+    {% for filterId in filterQuery %}
+        {% set relationParam = relationParam|merge([{ targetElement: filterId }]) %}
+    {% endfor %}
+{% endif %}
+
+{% set entries = craft.entries.section('product') %}
+
+{% if relationParam|length > 1 %}
+    {% set entries = entries.relatedTo(relationParam) %}
+{% endif %}
+
+{% paginate entries.limit(6) as pageInfo, pageEntries %}
+
 <body>
 <section>
-
     <div class="introductie">
         <h1 class="titeloverzicht">Timecraft</h1>
         <p class="omschrijvingoverzicht">Experience the art of innovation and craftsmanship in every watch we create. Our timepieces are meticulously handcrafted, fusing cutting-edge technology with timeless design. Each watch is a testament to dedication and expertise, reflecting sophistication and individuality.</p>
     </div>
-
-    <div class="filters">
-        <button class="button" @click="">Gen 1</button>
-        <button class="button" @click="">Seasonal</button>
-        <button class="button" @click="">New</button>
-    </div>
+    <form method="get">
+        <div class="filters">
+            {% for filter in craft.entries.section('filter') %}
+                <input type="checkbox" id="{{ filter.id }}" value="{{ filter.id }}" name="filter[]" {% if filterQuery and filter.id in filterQuery %} checked {% endif %} class="filter-checkbox">
+                <label for="{{ filter.id }}" class="filter-label">{{ filter.title }}</label>
+            {% endfor %}
+            <button class="button" type="submit">Filter</button>
+        </div>
+    </form>
 
     <div class="wrapper">
         {% for product in pageEntries %}
@@ -42,7 +54,6 @@
             </div>
         {% endfor %}
     </div>
-
     <div class="pagination">
         {% for i in 1..pageInfo.totalPages %}
             <button onclick="location.href='{{ pageInfo.getPageUrl(i) }}'" class="button{% if pageInfo.currentPage == i %} active{% endif %}">
@@ -52,5 +63,3 @@
     </div>
 </section>
 </body>
-</html>
-

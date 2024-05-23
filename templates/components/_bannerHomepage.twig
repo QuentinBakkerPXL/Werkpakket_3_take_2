@@ -3,7 +3,7 @@
 
 {% block content %}
 
-    {% set homePageEntry = craft.entries.section('homepage').type("welcomehome").one() %}
+    {% set homePageEntry = craft.entries.section('timecraft').type("welcomehome").one() %}
 
     {% set image = homePageEntry.bannerimageset.one() %}
 

@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 7fdb8cf2-e641-4762-94c7-0695720833bf # Filter
+handle: filter
+maxAuthors: 1
+name: Filter
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'filtergeneration1/{slug}'
+type: channel

@@ -1,6 +1,6 @@
 color: null
 fieldLayouts:
-  d893d1cb-5326-46c9-bd46-74e54c49b146:
+  43ce26f0-cf2a-4ab6-8924-02d21132c23b:
     tabs:
       -
         elementCondition: null
@@ -30,17 +30,17 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 8bd39101-0613-40fb-9fc4-9fc593244578
+            uid: a9c89f2c-5679-4ab4-8248-39792bc9f9ec
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 7049f343-bb71-4536-96a6-c610d1d2f64b
+        uid: 99874d99-5a8f-4909-ba85-e14290046dd2
         userCondition: null
-handle: test
+handle: filter
 hasTitleField: true
 icon: ''
-name: test
+name: Filter
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

@@ -2,9 +2,9 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   - 5a6f16c2-c4a6-4928-843b-39f6f133bdcc # welcomeHome
-handle: homepage
+handle: timecraft
 maxAuthors: 1
-name: homepage
+name: Timecraft
 previewTargets:
   -
     __assoc__:
