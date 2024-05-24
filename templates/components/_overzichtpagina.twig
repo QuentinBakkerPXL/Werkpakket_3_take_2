@@ -1,12 +1,11 @@
 {% do craft.app.view.registerCssFile('@web/css/overzichtstyles.css') %}
 
-{% set filterQuery = craft.app.request.getParam('filter') %}
-
+{% set filterQuery = craft.app.request.getParam('filtergeneration1') %}
 {% set relationParam = ['and'] %}
 
 {% if filterQuery %}
-    {% for filterId in filterQuery %}
-        {% set relationParam = relationParam|merge([{ targetElement: filterId }]) %}
+    {% for filtergeneration1Id in filterQuery %}
+        {% set relationParam = relationParam|merge([{ targetElement: filtergeneration1Id }]) %}
     {% endfor %}
 {% endif %}
 
@@ -26,9 +25,9 @@
     </div>
     <form method="get">
         <div class="filters">
-            {% for filter in craft.entries.section('filter') %}
-                <input type="checkbox" id="{{ filter.id }}" value="{{ filter.id }}" name="filter[]" {% if filterQuery and filter.id in filterQuery %} checked {% endif %} class="filter-checkbox">
-                <label for="{{ filter.id }}" class="filter-label">{{ filter.title }}</label>
+            {% for filtergeneration1 in craft.entries.section('filtergeneration1') %}
+                <input type="checkbox" id="{{ filtergeneration1.id }}" value="{{ filtergeneration1.id }}" name="filtergeneration1[]" {% if filterQuery and filtergeneration1.id in filterQuery %} checked {% endif %} class="filter-checkbox">
+                <label for="{{ filtergeneration1.id }}" class="filter-label">{{ filtergeneration1.title }}</label>
             {% endfor %}
             <button class="button" type="submit">Filter</button>
         </div>
