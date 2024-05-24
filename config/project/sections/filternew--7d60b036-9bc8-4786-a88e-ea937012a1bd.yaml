@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - bc6fe591-bc7a-4c43-bf75-edd4487ca71c # New
+handle: filternew
+maxAuthors: 1
+name: FilterNew
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'filternew/{slug}'
+type: channel

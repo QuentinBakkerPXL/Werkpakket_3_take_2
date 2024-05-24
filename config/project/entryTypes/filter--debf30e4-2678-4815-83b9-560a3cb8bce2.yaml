@@ -1,10 +1,6 @@
 color: null
 fieldLayouts:
-<<<<<<<< HEAD:config/project/entryTypes/filter--7fdb8cf2-e641-4762-94c7-0695720833bf.yaml
-  43ce26f0-cf2a-4ab6-8924-02d21132c23b:
-========
-  8c895827-103c-4183-ba70-1b0f60564557:
->>>>>>>> github/main:config/project/entryTypes/new--bc6fe591-bc7a-4c43-bf75-edd4487ca71c.yaml
+  011cebf0-d276-41fa-939f-027dcf502e4b:
     tabs:
       -
         elementCondition: null
@@ -34,30 +30,17 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-<<<<<<<< HEAD:config/project/entryTypes/filter--7fdb8cf2-e641-4762-94c7-0695720833bf.yaml
-            uid: a9c89f2c-5679-4ab4-8248-39792bc9f9ec
-========
-            uid: f4c6907f-88da-4389-958b-3718fb2be2ee
->>>>>>>> github/main:config/project/entryTypes/new--bc6fe591-bc7a-4c43-bf75-edd4487ca71c.yaml
+            uid: 4eab6aa3-1c71-4cc8-a92f-09574ba6b605
             userCondition: null
             warning: null
             width: 100
         name: Content
-<<<<<<<< HEAD:config/project/entryTypes/filter--7fdb8cf2-e641-4762-94c7-0695720833bf.yaml
-        uid: 99874d99-5a8f-4909-ba85-e14290046dd2
+        uid: 1c8e5d75-eeea-4bb4-adde-e43cc330fcc1
         userCondition: null
 handle: filter
 hasTitleField: true
 icon: ''
 name: Filter
-========
-        uid: b726a0de-67fa-4cf0-af70-4a944f179ed2
-        userCondition: null
-handle: new
-hasTitleField: true
-icon: ''
-name: New
->>>>>>>> github/main:config/project/entryTypes/new--bc6fe591-bc7a-4c43-bf75-edd4487ca71c.yaml
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

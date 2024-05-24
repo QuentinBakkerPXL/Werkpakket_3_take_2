@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 7c3a644a-1079-43d9-bd45-8e313a91502b # Seasonal
+handle: filterseasonal
+maxAuthors: 1
+name: FilterSeasonal
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'filterseasonal/{slug}'
+type: channel
