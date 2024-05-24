@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9 # Product
+  - fc00f804-b467-4408-9a42-fab4b41a9afa # introtext
 handle: allProducts
 maxAuthors: 1
 name: 'All products'

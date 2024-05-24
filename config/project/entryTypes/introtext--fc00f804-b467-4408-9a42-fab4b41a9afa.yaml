@@ -1,0 +1,80 @@
+color: null
+fieldLayouts:
+  5ea89691-90a1-4906-9bf3-ab5d1848d67e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a71dca16-fbd2-464f-9d3a-2f5463737234
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c1552ada-a27d-4d84-855c-802631859a3c # introtitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07e95bfe-8e39-41dc-85b4-9ac19268e675
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: feb9e110-ba61-4cfc-bb00-93895a958b68 # descriptionintrotitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 762d4359-36c0-47ef-b3d0-f46aa42a6bf2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e9e501bd-5197-4814-a034-b41930918dcd
+        userCondition: null
+handle: introtext
+hasTitleField: true
+icon: ''
+name: introtext
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

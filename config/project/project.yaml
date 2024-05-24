@@ -1,4 +1,4 @@
-dateModified: 1716549597
+dateModified: 1716557608
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -43,6 +43,7 @@ meta:
     b2f9b151-1a8d-4d13-a302-4200b13f4fc9: 'All products' # All products
     bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9: Product # Product
     bee130bb-e764-442c-bcfe-29d7ff9e7161: contact # contact
+    c1552ada-a27d-4d84-855c-802631859a3c: introtitle # introtitle
     c49028ea-4679-4bf1-a89f-761652c237ba: productcardsthree # productcardsthree
     ca1e00e3-7c4d-4385-8038-1b7cc8aa7a39: productdescription # productdescription
     d0c3f850-629b-41a3-81d7-2cb860e9462b: websitecontact # websitecontact
@@ -54,6 +55,8 @@ meta:
     e34cb142-6c6b-40aa-9eb6-a21c5499d912: FilterProducts # FilterProducts
     e91ba71a-c282-4bb7-83df-0ae627b2fca0: productPrice # productPrice
     ed6e297a-36d4-4752-b580-4724f4f062ba: Filter # Filter
+    fc00f804-b467-4408-9a42-fab4b41a9afa: introtext # introtext
+    feb9e110-ba61-4cfc-bb00-93895a958b68: descriptionintrotitle # descriptionintrotitle
 plugins:
   formie:
     edition: standard
