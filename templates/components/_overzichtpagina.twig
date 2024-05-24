@@ -26,8 +26,10 @@
     <form method="get">
         <div class="filters">
             {% for filtergeneration1 in craft.entries.section('filtergeneration1') %}
-                <input type="checkbox" id="{{ filtergeneration1.id }}" value="{{ filtergeneration1.id }}" name="filtergeneration1[]" {% if filterQuery and filtergeneration1.id in filterQuery %} checked {% endif %} class="filter-checkbox">
-                <label for="{{ filtergeneration1.id }}" class="filter-label">{{ filtergeneration1.title }}</label>
+                <div class="filter-item">
+                    <input type="checkbox" id="{{ filtergeneration1.id }}" value="{{ filtergeneration1.id }}" name="filtergeneration1[]" {% if filterQuery and filtergeneration1.id in filterQuery %} checked {% endif %} class="filter-checkbox">
+                    <label for="{{ filtergeneration1.id }}" class="filter-label">{{ filtergeneration1.title }}</label>
+                </div>
             {% endfor %}
             <button class="button" type="submit">Filter</button>
         </div>

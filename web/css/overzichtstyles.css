@@ -1,8 +1,14 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
 .filters, .pagination {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 60px 0;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .filters .button, .pagination .button {
@@ -26,7 +32,6 @@
 .filters .button-active, .pagination .button-active {
     background-color: #c76744;
 }
-
 
 .wrapper {
     display: flex;
@@ -128,5 +133,55 @@
     font-size: 30px;
     color: #5b95d4;
     padding-bottom: 10px;
+}
 
+/* Custom checkbox styles */
+.filter-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.filter-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.filter-checkbox:checked {
+    background-color: #c76744;
+    border: none;
+}
+
+.filter-checkbox:checked::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #c76744;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.filter-label {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.filter-checkbox + .filter-label {
+    display: flex;
+    align-items: center;
 }
