@@ -1,4 +1,4 @@
-dateModified: 1716630729
+dateModified: 1716631714
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -63,6 +63,11 @@ meta:
     fc00f804-b467-4408-9a42-fab4b41a9afa: introtext # introtext
     feb9e110-ba61-4cfc-bb00-93895a958b68: descriptionintrotitle # descriptionintrotitle
 plugins:
+  cookie-consent:
+    edition: standard
+    enabled: true
+    licenseKey: ODDA20YFUXU6AWIO66SLPW0O
+    schemaVersion: 1.5.0
   formie:
     edition: standard
     enabled: true
