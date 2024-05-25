@@ -1,8 +1,42 @@
 {% extends "_layout.twig" %}
 {% do craft.app.view.registerCssFile('@web/css/general.css') %}
 {% hook 'after-body-start' %}
+
+   {% do craft.app.view.registerCssFile('@web/css/SingleCard.css') %}
+
 {% block content %}
 
-{% include "components/_detailCard.twig" %}
+    {% set product = craft.entries.slug(craft.app.request.getSegment(2)).section('product').one() %}
+
+    <body>
+    <section>
+        <main>
+            {% if product %}
+            <section id="product-page">
+
+                    <div class="product-details">
+                        <div class="product-img">
+                            {% set image = product.productimage.one() %}
+                            {% if image %}
+                            <img src="{{ image.url }}" alt="Product Image" class="product-image" />
+                            {% endif %}
+                        </div>
+                        <div class="product-text">
+{#                            <h2 class="product-category">Product generation </h2>#}
+                            <h3>{{ product.title }}</h3>
+                            <span class="product-price">Price: ${{ product.productpricetag }}</span><br>
+
+                            <p>{{ product.productdescription }}</p><br>
+                            <div class="product-button">
+                                <button @click="" class="add-cart-btn" id="button2">Add to Cart</button>
+                            </div>
+                            <a href="#" class="help-btn">Need Any Help?</a>
+                        </div>
+                    </div>
+            </section>
+            {% endif %}
+        </main>
+    </section>
+    </body>
 
 {% endblock %}

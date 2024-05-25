@@ -1,11 +1,11 @@
 {% extends "_layout.twig" %}
-{% do craft.app.view.registerCssFile('@web/css/general.css') %}
 {% do craft.app.view.registerCssFile('@web/css/contact.css') %}
+{% set contactPageEntry = craft.entries.section('contact').one() %}
 {% hook 'after-body-start' %}
 
 {% block content %}
 
-    {% set contactPageEntry = craft.entries.section('contact').one() %}
+
 
     <section>
 
