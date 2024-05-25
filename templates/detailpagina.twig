@@ -7,7 +7,6 @@
 {% block content %}
 
     {% set product = craft.entries.slug(craft.app.request.getSegment(2)).section('product').one() %}
-
     <body>
     <section>
         <main>
@@ -22,7 +21,9 @@
                             {% endif %}
                         </div>
                         <div class="product-text">
-{#                            <h2 class="product-category">Product generation </h2>#}
+                            {% for filtergeneration1 in craft.entries.section('filtergeneration1') %}
+                            <h2 class="product-category">{{ filtergeneration1.title }}</h2>
+                            {% endfor %}
                             <h3>{{ product.title }}</h3>
                             <span class="product-price">Price: ${{ product.productpricetag }}</span><br>
 
@@ -38,5 +39,4 @@
         </main>
     </section>
     </body>
-
 {% endblock %}

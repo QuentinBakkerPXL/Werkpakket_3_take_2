@@ -5,7 +5,9 @@ body {
 
 main {
     font-family: 'Bebas Neue', sans-serif;
+    margin-top: 120px;
 }
+
 
 .product-details {
     max-width: 1200px;
