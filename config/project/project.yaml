@@ -1,4 +1,4 @@
-dateModified: 1716557608
+dateModified: 1716630729
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -27,7 +27,9 @@ meta:
     5f3d144b-dbd8-4f86-88fa-08a430235c88: whatshottitle # whatshottitle
     5f781169-c967-447b-b61f-93bbc1d5ace7: productTitle # productTitle
     6fa87c78-1100-4f04-8cb2-f41fa486e80c: Timecraft # Timecraft
-    7fdb8cf2-e641-4762-94c7-0695720833bf: Filter # Filter
+    7c3a644a-1079-43d9-bd45-8e313a91502b: Seasonal # Seasonal
+    7d60b036-9bc8-4786-a88e-ea937012a1bd: FilterNew # FilterNew
+    7fdb8cf2-e641-4762-94c7-0695720833bf: 'Gen 1' # Gen 1
     17a564f6-c9a6-4ef6-8013-dbe306818bd9: Product # Product
     33d77994-96c2-4629-b80d-1c398231f579: websitephone # websitephone
     363b05aa-e8b4-47cd-86fb-d0220a4f46da: bannerImage # bannerImage
@@ -43,18 +45,21 @@ meta:
     b2f9b151-1a8d-4d13-a302-4200b13f4fc9: 'All products' # All products
     bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9: Product # Product
     bee130bb-e764-442c-bcfe-29d7ff9e7161: contact # contact
+    c2f14014-2eaa-4837-9501-45634236dd4e: FilterSeasonal # FilterSeasonal
     c1552ada-a27d-4d84-855c-802631859a3c: introtitle # introtitle
     c49028ea-4679-4bf1-a89f-761652c237ba: productcardsthree # productcardsthree
     ca1e00e3-7c4d-4385-8038-1b7cc8aa7a39: productdescription # productdescription
     d0c3f850-629b-41a3-81d7-2cb860e9462b: websitecontact # websitecontact
     d00bbfa5-8726-4d61-9d20-96f3de011140: Contact # Contact
     d5ffdd0e-008d-450c-9cd2-3dff37e2134a: Timecraft # Timecraft
+    d9e0f4e0-ca04-4976-8ab4-f07e6f63feab: form # form
     d80a575d-21d6-4959-b9b5-3153bbc94a68: websitelocation # websitelocation
     ddc804c8-bffd-4a07-91f7-74952c334afb: productWatches # productWatches
+    debf30e4-2678-4815-83b9-560a3cb8bce2: Filter # Filter
     e9f5ef54-fd07-4a91-b53e-543fd17c40af: websitename # websitename
     e34cb142-6c6b-40aa-9eb6-a21c5499d912: FilterProducts # FilterProducts
     e91ba71a-c282-4bb7-83df-0ae627b2fca0: productPrice # productPrice
-    ed6e297a-36d4-4752-b580-4724f4f062ba: Filter # Filter
+    ed6e297a-36d4-4752-b580-4724f4f062ba: FilterGeneration1 # FilterGeneration1
     fc00f804-b467-4408-9a42-fab4b41a9afa: introtext # introtext
     feb9e110-ba61-4cfc-bb00-93895a958b68: descriptionintrotitle # descriptionintrotitle
 plugins:

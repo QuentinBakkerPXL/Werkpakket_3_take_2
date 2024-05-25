@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ac54679a8c58e8347f08161ba8b1194",
+    "content-hash": "757fefb882504abbc7397eccebf89ba9",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -401,11 +401,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "5.1.5",
+            "version": "5.1.6",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/a8d6f23a0885a04a235a1c20d9ac0958309972f5",
-                "reference": "a8d6f23a0885a04a235a1c20d9ac0958309972f5",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/916d3185a79a940d0d5d11adcf8b86c973a065ca",
+                "reference": "916d3185a79a940d0d5d11adcf8b86c973a065ca",
                 "shasum": ""
             },
             "require": {
@@ -502,7 +502,7 @@
                 "docs": "https://craftcms.com/docs/5.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-05-22T19:50:18+00:00"
+            "time": "2024-05-23T23:17:09+00:00"
         },
         {
             "name": "craftcms/plugin-installer",
@@ -3883,11 +3883,11 @@
         },
         {
             "name": "solspace/craft-freeform",
-            "version": "5.2.2",
+            "version": "5.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/55d15ee6a6fff574aeef6928d2b3e2a8659f1e57",
-                "reference": "55d15ee6a6fff574aeef6928d2b3e2a8659f1e57",
+                "url": "https://api.github.com/repos/solspace/craft-freeform/zipball/ac06755a96d2f255c80d786856b723c259035bfa",
+                "reference": "ac06755a96d2f255c80d786856b723c259035bfa",
                 "shasum": ""
             },
             "require": {
@@ -3935,7 +3935,7 @@
                 }
             ],
             "description": "The most reliable form builder that's ready for wherever your project takes you.",
-            "time": "2024-05-22T20:07:31+00:00"
+            "time": "2024-05-24T16:58:59+00:00"
         },
         {
             "name": "spomky-labs/cbor-php",
@@ -4503,17 +4503,18 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v6.4.6",
+            "version": "v6.4.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/9919b5509ada52cc7f66f9a35c86a4a29955c9d3",
-                "reference": "9919b5509ada52cc7f66f9a35c86a4a29955c9d3",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/78dde75f8f6dbbca4ec436a4b0087f7af02076d4",
+                "reference": "78dde75f8f6dbbca4ec436a4b0087f7af02076d4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
                 "symfony/polyfill-ctype": "~1.8",
-                "symfony/polyfill-mbstring": "~1.8"
+                "symfony/polyfill-mbstring": "~1.8",
+                "symfony/process": "^5.4|^6.4"
             },
             "type": "library",
             "autoload": {
@@ -4539,7 +4540,7 @@
             ],
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
-            "time": "2024-03-21T19:36:20+00:00"
+            "time": "2024-04-18T09:22:46+00:00"
         },
         {
             "name": "symfony/finder",
@@ -5354,15 +5355,15 @@
         },
         {
             "name": "symfony/process",
-            "version": "v7.0.7",
+            "version": "v6.4.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/3839e56b94dd1dbd13235d27504e66baf23faba0",
-                "reference": "3839e56b94dd1dbd13235d27504e66baf23faba0",
+                "url": "https://api.github.com/repos/symfony/process/zipball/cdb1c81c145fd5aa9b0038bab694035020943381",
+                "reference": "cdb1c81c145fd5aa9b0038bab694035020943381",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2"
+                "php": ">=8.1"
             },
             "type": "library",
             "autoload": {
@@ -5388,7 +5389,7 @@
             ],
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
-            "time": "2024-04-18T09:29:19+00:00"
+            "time": "2024-04-18T09:22:46+00:00"
         },
         {
             "name": "symfony/property-access",

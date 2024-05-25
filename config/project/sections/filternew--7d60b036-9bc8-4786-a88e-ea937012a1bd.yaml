@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
 entryTypes:
-  - bc6fe591-bc7a-4c43-bf75-edd4487ca71c # New
+  - bc6fe591-bc7a-4c43-bf75-edd4487ca71c
 handle: filternew
 maxAuthors: 1
 name: FilterNew

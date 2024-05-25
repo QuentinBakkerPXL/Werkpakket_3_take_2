@@ -1,3 +1,15 @@
 {% extends "_layout.twig" %}
 {% do craft.app.view.registerCssFile('@web/css/general.css') %}
-{% include "components/_contactForm" %}
+{% do craft.app.view.registerCssFile('@web/css/contact.css') %}
+
+{% block content %}
+
+    {% set contactPageEntry = craft.entries.section('contact').one() %}
+
+    <section>
+
+        {{ craft.formie.renderForm('basicForm') }}
+
+    </section>
+
+{% endblock %}
