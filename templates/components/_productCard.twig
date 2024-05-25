@@ -10,7 +10,7 @@
                 <div class="img-area">
                     <img src="{{ image.url }}" alt="{{ product.title }}">
                     <div class="overlay">
-                        <button class="view-details">View details</button>
+                        <a href="{{ url('products/' ~ product.slug) }}" class="view-details">View details</a>
                     </div>
                 </div>
                 <div class="info">
