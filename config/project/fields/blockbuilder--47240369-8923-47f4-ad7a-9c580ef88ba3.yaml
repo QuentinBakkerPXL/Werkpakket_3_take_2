@@ -6,8 +6,8 @@ searchable: true
 settings:
   createButtonLabel: null
   entryTypes:
-    - 6c9782d8-1816-42c5-b264-4b9f60b65409 # contentblock1
-    - 9b9951bc-6fe2-42cd-ad5d-b9d699f8c0ed # contentblock2
+    - 6c9782d8-1816-42c5-b264-4b9f60b65409 # text
+    - 9b9951bc-6fe2-42cd-ad5d-b9d699f8c0ed # image
     - dd41623c-6201-48c3-b44d-1c71245bed9b # contentblock3
   includeTableView: false
   maxEntries: null

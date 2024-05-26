@@ -36,7 +36,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 897b7f07-b594-4d0e-91b4-d91914626ce5 # introductionform
+            fieldUid: 027e879f-1329-4da2-a803-e9ba0f8acf1d # imagefield1
             handle: null
             includeInCards: false
             instructions: null
@@ -45,22 +45,7 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: c7b85b47-bb6f-4994-86f6-297a503de54b
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: d9e0f4e0-ca04-4976-8ab4-f07e6f63feab # form
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: b952b6cc-88e9-49c9-89b1-98eb529a97d4
+            uid: dea49f2a-91a3-4632-871a-400ff749de24
             userCondition: null
             warning: null
             width: 100
@@ -70,7 +55,7 @@ fieldLayouts:
 handle: contentblock2
 hasTitleField: true
 icon: ''
-name: contentblock2
+name: image
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null

@@ -1,4 +1,4 @@
-dateModified: 1716721263
+dateModified: 1716721619
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -27,12 +27,12 @@ meta:
     5a6f16c2-c4a6-4928-843b-39f6f133bdcc: welcomeHome # welcomeHome
     5f3d144b-dbd8-4f86-88fa-08a430235c88: whatshottitle # whatshottitle
     5f781169-c967-447b-b61f-93bbc1d5ace7: productTitle # productTitle
-    6c9782d8-1816-42c5-b264-4b9f60b65409: contentblock1 # contentblock1
+    6c9782d8-1816-42c5-b264-4b9f60b65409: text # text
     6fa87c78-1100-4f04-8cb2-f41fa486e80c: Timecraft # Timecraft
     7c3a644a-1079-43d9-bd45-8e313a91502b: Seasonal # Seasonal
     7d60b036-9bc8-4786-a88e-ea937012a1bd: FilterNew # FilterNew
     7fdb8cf2-e641-4762-94c7-0695720833bf: 'Gen 1' # Gen 1
-    9b9951bc-6fe2-42cd-ad5d-b9d699f8c0ed: contentblock2 # contentblock2
+    9b9951bc-6fe2-42cd-ad5d-b9d699f8c0ed: image # image
     17a564f6-c9a6-4ef6-8013-dbe306818bd9: Product # Product
     027e879f-1329-4da2-a803-e9ba0f8acf1d: imagefield1 # imagefield1
     33d77994-96c2-4629-b80d-1c398231f579: websitephone # websitephone
