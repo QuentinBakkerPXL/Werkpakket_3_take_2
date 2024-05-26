@@ -1,0 +1,31 @@
+columnSuffix: null
+handle: blockbuilder
+instructions: null
+name: Blockbuilder
+searchable: true
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 6c9782d8-1816-42c5-b264-4b9f60b65409 # contentblock1
+    - 9b9951bc-6fe2-42cd-ad5d-b9d699f8c0ed # contentblock2
+    - dd41623c-6201-48c3-b44d-1c71245bed9b # contentblock3
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  siteSettings:
+    __assoc__:
+      -
+        - d5ffdd0e-008d-450c-9cd2-3dff37e2134a # Timecraft
+        -
+          __assoc__:
+            -
+              - template
+              - contentmanagerpage.twig
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

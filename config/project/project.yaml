@@ -1,4 +1,4 @@
-dateModified: 1716631714
+dateModified: 1716721263
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -23,23 +23,30 @@ meta:
     1bbc2744-dc6c-4446-851d-9125ea999d51: websitemail # websitemail
     1dcd3c75-977e-4304-801a-ba1d8a3ebab9: productprice # productprice
     1e578cda-fb71-4c64-bcc9-533ab720270c: Timecraft # Timecraft
+    3dcbace6-c992-44cd-9e0e-b518ce801921: textfield1 # textfield1
     5a6f16c2-c4a6-4928-843b-39f6f133bdcc: welcomeHome # welcomeHome
     5f3d144b-dbd8-4f86-88fa-08a430235c88: whatshottitle # whatshottitle
     5f781169-c967-447b-b61f-93bbc1d5ace7: productTitle # productTitle
+    6c9782d8-1816-42c5-b264-4b9f60b65409: contentblock1 # contentblock1
     6fa87c78-1100-4f04-8cb2-f41fa486e80c: Timecraft # Timecraft
     7c3a644a-1079-43d9-bd45-8e313a91502b: Seasonal # Seasonal
     7d60b036-9bc8-4786-a88e-ea937012a1bd: FilterNew # FilterNew
     7fdb8cf2-e641-4762-94c7-0695720833bf: 'Gen 1' # Gen 1
+    9b9951bc-6fe2-42cd-ad5d-b9d699f8c0ed: contentblock2 # contentblock2
     17a564f6-c9a6-4ef6-8013-dbe306818bd9: Product # Product
+    027e879f-1329-4da2-a803-e9ba0f8acf1d: imagefield1 # imagefield1
     33d77994-96c2-4629-b80d-1c398231f579: websitephone # websitephone
     363b05aa-e8b4-47cd-86fb-d0220a4f46da: bannerImage # bannerImage
     779c6a13-befe-47c5-9729-bea14ce40020: websitetitle # websitetitle
+    897b7f07-b594-4d0e-91b4-d91914626ce5: introductionform # introductionform
     1774cf91-67ba-4ca3-8e05-0b08d289b4fb: navbar # navbar
     03840bf7-a462-4ab4-8c39-a9eb7d66eb6c: 'Contact Form' # Contact Form
     8593d7a4-b06a-4f70-b8ec-472eaa70fa6a: bannerImageSet # bannerImageSet
     41790cbe-d7bb-4e1d-916a-c0caf50704a1: productImage # productImage
     85751bc1-0bed-49a2-8899-09d9703e42f1: bannertext # bannertext
     872518e7-11d4-407b-a0cc-8defee2343c7: footer # footer
+    47240369-8923-47f4-ad7a-9c580ef88ba3: Blockbuilder # Blockbuilder
+    a24a8485-6759-4c11-b6ef-5c7c5f4a013b: contentform # contentform
     a338db41-cec4-4293-bb9e-6ea46c1dd4d1: websiteallproducts # websiteallproducts
     aaa5f5bc-a8f5-49e4-b7d2-c1a90a253f30: New # New
     b2f9b151-1a8d-4d13-a302-4200b13f4fc9: 'All products' # All products
@@ -54,6 +61,7 @@ meta:
     d5ffdd0e-008d-450c-9cd2-3dff37e2134a: Timecraft # Timecraft
     d9e0f4e0-ca04-4976-8ab4-f07e6f63feab: form # form
     d80a575d-21d6-4959-b9b5-3153bbc94a68: websitelocation # websitelocation
+    dd41623c-6201-48c3-b44d-1c71245bed9b: contentblock3 # contentblock3
     ddc804c8-bffd-4a07-91f7-74952c334afb: productWatches # productWatches
     debf30e4-2678-4815-83b9-560a3cb8bce2: Filter # Filter
     e9f5ef54-fd07-4a91-b53e-543fd17c40af: websitename # websitename
