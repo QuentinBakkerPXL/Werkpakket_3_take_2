@@ -53,13 +53,13 @@ fieldLayouts:
         uid: 77f8004c-5aff-47e0-9bf6-ae0e45b2b17f
         userCondition: null
 handle: contentblock1
-hasTitleField: true
+hasTitleField: false
 icon: ''
 name: text
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: 'Text block'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

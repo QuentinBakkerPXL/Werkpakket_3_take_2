@@ -1,6 +1,6 @@
-color: emerald
+color: null
 fieldLayouts:
-  c7c042fa-70ce-4ebc-bbcd-e1c270d32573:
+  2c28d62e-890d-4243-9a1b-4cbcae5e3db8:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 1c17380f-d22e-4f25-b38f-955a9dfe8153
+            uid: 8ea7e516-2cb7-4e4b-9ae7-8e99be7ad591
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 027e879f-1329-4da2-a803-e9ba0f8acf1d # imagefield1
+            fieldUid: 897b7f07-b594-4d0e-91b4-d91914626ce5 # introductionform
             handle: null
             includeInCards: false
             instructions: null
@@ -45,21 +45,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: dea49f2a-91a3-4632-871a-400ff749de24
+            uid: c8d9689d-605f-4ac6-8e6a-5a0bfb620322
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 79cc0474-269d-4603-9ce6-81704ac649db
+        uid: 6ea11ce3-1adb-4316-8974-c84980f3ed23
         userCondition: null
-handle: contentblock2
+handle: formdescription
 hasTitleField: false
 icon: ''
-name: image
+name: formdescription
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: 'Image block'
+titleFormat: 'description block'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

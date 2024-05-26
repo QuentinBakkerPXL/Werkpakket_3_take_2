@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: blockbuilder3
+instructions: null
+name: blockbuilder3
+searchable: true
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - dd41623c-6201-48c3-b44d-1c71245bed9b # productstoshow
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,6 +1,6 @@
-color: pink
+color: null
 fieldLayouts:
-  87496b6c-c42d-4869-9dbd-94df9e42ac5f:
+  6b5f8d13-1b01-4874-bb21-14664a80799d:
     tabs:
       -
         elementCondition: null
@@ -30,13 +30,13 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 95f4ed51-1ec6-42a1-bbdf-77e2df2fbcb1
+            uid: d2f9592d-8259-42c5-ac85-d5dd4e8c1c95
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: c49028ea-4679-4bf1-a89f-761652c237ba # productcardsthree
+            fieldUid: a24a8485-6759-4c11-b6ef-5c7c5f4a013b # contentform
             handle: null
             includeInCards: false
             instructions: null
@@ -45,21 +45,21 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 6fb0d67c-4d7a-4972-9cb4-b40e064f1097
+            uid: 479b4893-67bf-4619-beca-81ee32ec9081
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 3eae915d-8cda-404f-8ef1-aa85b051ce7b
+        uid: 3315ceb9-84bd-4f0f-b5b9-6ecac3240cb1
         userCondition: null
-handle: contentblock3
-hasTitleField: true
+handle: formblock
+hasTitleField: false
 icon: ''
-name: contentblock3
+name: formblock
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: Formblock
 titleTranslationKeyFormat: null
 titleTranslationMethod: site
