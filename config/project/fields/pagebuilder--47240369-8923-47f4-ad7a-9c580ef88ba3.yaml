@@ -1,12 +1,12 @@
 columnSuffix: null
-handle: blockbuilder3
+handle: pagebuilder
 instructions: null
-name: blockbuilder3
+name: Pagebuilder
 searchable: true
 settings:
   createButtonLabel: null
   entryTypes:
-    - dd41623c-6201-48c3-b44d-1c71245bed9b # productstoshow
+    - ba861cca-b306-44a7-b606-4254c0e90a62 # pagebuildertab
   includeTableView: false
   maxEntries: null
   minEntries: null
@@ -14,6 +14,15 @@ settings:
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: false
+  siteSettings:
+    __assoc__:
+      -
+        - d5ffdd0e-008d-450c-9cd2-3dff37e2134a # Timecraft
+        -
+          __assoc__:
+            -
+              - template
+              - contentmanagerpage.twig
   viewMode: cards
 translationKeyFormat: null
 translationMethod: site

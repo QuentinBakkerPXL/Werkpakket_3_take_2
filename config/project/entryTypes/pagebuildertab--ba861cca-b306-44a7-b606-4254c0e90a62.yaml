@@ -1,0 +1,152 @@
+color: null
+fieldLayouts:
+  fe48b6e2-14f7-42ac-9706-0f5f0498ff6c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 377774ee-42c4-414c-abcc-8b2455dc3a65
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3dcbace6-c992-44cd-9e0e-b518ce801921 # textfield1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f7c0c309-5554-4046-8a39-2527f2c5d08e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 027e879f-1329-4da2-a803-e9ba0f8acf1d # imagefield1
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d3863edf-c33e-4dd4-89b6-f615a9daca10
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 51e218d1-b4bf-4d64-9c1f-e79e7a40e322
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: feb9e110-ba61-4cfc-bb00-93895a958b68 # descriptionintrotitle
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 05179187-6a03-4664-b0f3-76e73ed3118c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 897b7f07-b594-4d0e-91b4-d91914626ce5 # introductionform
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fffa7888-fae5-4f0c-9e2d-b4098c37d51f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a24a8485-6759-4c11-b6ef-5c7c5f4a013b # contentform
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a6bf6f56-a638-44a4-95d3-8e2365455ad1
+            userCondition: null
+            warning: null
+            width: 100
+        name: formbuilder
+        uid: cc682d4c-fedb-496c-8302-1c1562109efb
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c49028ea-4679-4bf1-a89f-761652c237ba # productcardsthree
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 001d03f2-f280-4415-96cc-200caf92ab47
+            userCondition: null
+            warning: null
+            width: 100
+        name: productsbuilder
+        uid: 3f297668-d693-4317-861e-5ca1cde2b7af
+        userCondition: null
+handle: pagebuildertab
+hasTitleField: true
+icon: ''
+name: pagebuildertab
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

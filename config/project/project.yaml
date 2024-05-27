@@ -1,4 +1,4 @@
-dateModified: 1716823588
+dateModified: 1716828681
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -30,7 +30,6 @@ meta:
     6c9782d8-1816-42c5-b264-4b9f60b65409: text # text
     6fa87c78-1100-4f04-8cb2-f41fa486e80c: Timecraft # Timecraft
     7c3a644a-1079-43d9-bd45-8e313a91502b: Seasonal # Seasonal
-    7d31b294-803c-49d3-b76c-799d0e1159a2: blockbuilder2 # blockbuilder2
     7d60b036-9bc8-4786-a88e-ea937012a1bd: FilterNew # FilterNew
     7fdb8cf2-e641-4762-94c7-0695720833bf: 'Gen 1' # Gen 1
     9b9951bc-6fe2-42cd-ad5d-b9d699f8c0ed: image # image
@@ -49,13 +48,13 @@ meta:
     41790cbe-d7bb-4e1d-916a-c0caf50704a1: productImage # productImage
     85751bc1-0bed-49a2-8899-09d9703e42f1: bannertext # bannertext
     872518e7-11d4-407b-a0cc-8defee2343c7: footer # footer
-    47240369-8923-47f4-ad7a-9c580ef88ba3: blockbuilder1 # blockbuilder1
+    47240369-8923-47f4-ad7a-9c580ef88ba3: Pagebuilder # Pagebuilder
     a24a8485-6759-4c11-b6ef-5c7c5f4a013b: contentform # contentform
     a338db41-cec4-4293-bb9e-6ea46c1dd4d1: websiteallproducts # websiteallproducts
     a9701a37-5606-4a68-9933-2a8a0909d468: formdescription # formdescription
     aaa5f5bc-a8f5-49e4-b7d2-c1a90a253f30: New # New
-    b086cfeb-5524-4931-a1f1-030eb70df13f: blockbuilder3 # blockbuilder3
     b2f9b151-1a8d-4d13-a302-4200b13f4fc9: 'All products' # All products
+    ba861cca-b306-44a7-b606-4254c0e90a62: pagebuildertab # pagebuildertab
     bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9: Product # Product
     bee130bb-e764-442c-bcfe-29d7ff9e7161: contact # contact
     c2f14014-2eaa-4837-9501-45634236dd4e: FilterSeasonal # FilterSeasonal
