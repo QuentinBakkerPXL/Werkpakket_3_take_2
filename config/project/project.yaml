@@ -1,4 +1,4 @@
-dateModified: 1716828681
+dateModified: 1716835419
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -34,6 +34,7 @@ meta:
     7fdb8cf2-e641-4762-94c7-0695720833bf: 'Gen 1' # Gen 1
     9b9951bc-6fe2-42cd-ad5d-b9d699f8c0ed: image # image
     17a564f6-c9a6-4ef6-8013-dbe306818bd9: Product # Product
+    26ea1085-ed21-4345-9a6a-65585292a854: Simple # Simple
     027e879f-1329-4da2-a803-e9ba0f8acf1d: imagefield1 # imagefield1
     33d77994-96c2-4629-b80d-1c398231f579: websitephone # websitephone
     61a6cdc0-8f75-480e-a863-dc75d9bf3847: formblock # formblock
@@ -77,6 +78,10 @@ meta:
     fca1ab6e-e35b-40ba-a91b-2d22ec1e460e: pagebuilder # pagebuilder
     feb9e110-ba61-4cfc-bb00-93895a958b68: descriptionintrotitle # descriptionintrotitle
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
   cookie-consent:
     edition: standard
     enabled: true

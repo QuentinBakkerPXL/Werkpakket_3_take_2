@@ -140,13 +140,13 @@ fieldLayouts:
         uid: 3f297668-d693-4317-861e-5ca1cde2b7af
         userCondition: null
 handle: pagebuildertab
-hasTitleField: true
+hasTitleField: false
 icon: ''
 name: pagebuildertab
 showSlugField: true
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: ''
+titleFormat: Owncontent
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

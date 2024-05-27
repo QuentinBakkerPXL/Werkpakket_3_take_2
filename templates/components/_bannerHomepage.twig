@@ -1,29 +1,6 @@
-{#{% do craft.app.view.registerCssFile('@web/css/BannerHome.css') %}#}
 
-
-{#{% block content %}#}
-
-{#    {% set homePageEntry = craft.entries.section('timecraft').type("welcomehome").one() %}#}
 
     {% set image = entry.bannerimageset.one() %}
-
-{#    <section>#}
-{#        <div class="bg-image">#}
-{#            <div class="filter-blur">#}
-{#                <img src="{{ image.url }}" alt="{{ homePageEntry.title }}" class="homepage-header-image">#}
-{#            </div>#}
-{#        </div>#}
-{#        <div  class="banner">#}
-{#            <h1 class="backdrop">{{ homePageEntry.bannertext }}</h1>#}
-{#        </div>#}
-{#        <main>#}
-{#            <h2>{{ homePageEntry.whatshottitle}}</h2>#}
-{#        </main>#}
-{#        {% include 'components/_productCard.twig' %}#}
-{#    </section>#}
-
-
-{#{% endblock %}#}
 {% do craft.app.view.registerCssFile('@web/css/BannerHome.css') %}
 
 {% block content %}
@@ -33,8 +10,6 @@
     <section>
         <div class="bg-image" style="background-image: url('{{ image.url }}')">
             <div class="filter-blur">
-                <!-- Test if the image loads directly -->
-{#                <img src="/files/Background.jpg" alt="Background Test">#}
             </div>
         </div>
         <div  class="banner">

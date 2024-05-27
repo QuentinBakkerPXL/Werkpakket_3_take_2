@@ -14,15 +14,6 @@ settings:
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: false
-  siteSettings:
-    __assoc__:
-      -
-        - d5ffdd0e-008d-450c-9cd2-3dff37e2134a # Timecraft
-        -
-          __assoc__:
-            -
-              - template
-              - contentmanagerpage.twig
   viewMode: cards
 translationKeyFormat: null
 translationMethod: site

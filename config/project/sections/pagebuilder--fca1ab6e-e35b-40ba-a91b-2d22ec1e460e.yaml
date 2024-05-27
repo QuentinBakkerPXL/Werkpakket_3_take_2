@@ -23,7 +23,7 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: contentmanagerpage.twig
-    uriFormat: 'pagebuilder/{slug}'
+    uriFormat: pagebuilder
 structure:
   maxLevels: null
   uid: c04fab1b-4ca3-4ec2-9787-f8d9fa4b2daf
