@@ -1,16 +1,18 @@
 {% extends "_layout.twig" %}
-{% do craft.app.view.registerCssFile('@web/css/contact.css') %}
-{% set contactPageEntry = craft.entries.section('contact').one() %}
 {% hook 'after-body-start' %}
 
+{% do craft.app.view.registerCssFile('@web/css/contact.css') %}
+{% set contactPageEntry = craft.entries.section('contact').one() %}
 {% block content %}
-
-
-
-    <section>
-
-        {{ craft.formie.renderForm('basicForm') }}
-
+    <section class="contact-section">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h1>{{ contactPageEntry.contacttitle }}</h1>
+                <p>{{ contactPageEntry.contacttext }}</p>
+            </div>
+            <div class="contact-form">
+                {{ craft.formie.renderForm('basicForm') }}
+            </div>
+        </div>
     </section>
-
 {% endblock %}
