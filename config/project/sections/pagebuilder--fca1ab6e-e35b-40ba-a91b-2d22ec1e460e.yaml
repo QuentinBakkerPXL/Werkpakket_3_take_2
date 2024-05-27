@@ -1,0 +1,30 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 584edc1e-fead-421c-8620-6a09e3a2b670 # pagebuilders
+handle: pagebuilder
+maxAuthors: 1
+name: pagebuilder
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
+    enabledByDefault: true
+    hasUrls: true
+    template: contentmanagerpage.twig
+    uriFormat: 'pagebuilder/{slug}'
+structure:
+  maxLevels: null
+  uid: c04fab1b-4ca3-4ec2-9787-f8d9fa4b2daf
+type: structure

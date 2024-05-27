@@ -21,7 +21,7 @@
                             {% endif %}
                         </div>
                         <div class="product-text">
-                            {% for filtergeneration1 in craft.entries.section('filtergeneration1') %}
+                            {% for filtergeneration1 in product.filterproducts.all() %}
                             <h2 class="product-category">{{ filtergeneration1.title }}</h2>
                             {% endfor %}
                             <h3>{{ product.title }}</h3>

@@ -8,11 +8,11 @@ settings:
   branchLimit: null
   localizeRelations: false
   maintainHierarchy: false
-  maxRelations: null
-  minRelations: null
+  maxRelations: 3
+  minRelations: 3
   selectionLabel: null
   showCardsInGrid: false
-  showSiteMenu: false
+  showSiteMenu: true
   sources:
     - 'section:17a564f6-c9a6-4ef6-8013-dbe306818bd9' # Product
   targetSiteId: null

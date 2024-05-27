@@ -1,14 +1,32 @@
-.homepage-header-image {
-    width: 100%;
-    filter: blur(5px);
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.bg-image .filter-blur {
+    background: rgba(240, 227, 227, 0.5);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
 .banner {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
 }
 
 .banner h1 {
@@ -17,11 +35,6 @@
     position: absolute;
     margin-bottom: 60%;
 }
- .backdrop {
-    background: white;
-    padding: 5px;
-    display: inline-block;
-}
 
 h2 {
     align-items: center;
@@ -29,8 +42,44 @@ h2 {
     flex-direction: column;
     text-align: center;
     font-weight: bold;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
-    margin-top: 70px;
 }
+
+
+
+/*.homepage-header-image {*/
+/*    width: 100%;*/
+/*    filter: blur(5px);*/
+/*}*/
+
+/*.banner {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    text-align: center;*/
+/*    font-family: 'Bebas Neue', sans-serif;*/
+/*}*/
+
+/*.banner h1 {*/
+/*    font-size: 75px;*/
+/*    color: #212121;*/
+/*    position: absolute;*/
+/*    margin-bottom: 60%;*/
+/*}*/
+/* .backdrop {*/
+/*    background: white;*/
+/*    padding: 5px;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*h2 {*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    text-align: center;*/
+/*    font-weight: bold;*/
+/*    font-family: 'Bebas Neue', sans-serif;*/
+/*    font-size: 40px;*/
+/*    margin-top: 70px;*/
+/*}*/
 

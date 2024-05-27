@@ -1,4 +1,4 @@
-dateModified: 1716725498
+dateModified: 1716823588
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -39,6 +39,7 @@ meta:
     33d77994-96c2-4629-b80d-1c398231f579: websitephone # websitephone
     61a6cdc0-8f75-480e-a863-dc75d9bf3847: formblock # formblock
     363b05aa-e8b4-47cd-86fb-d0220a4f46da: bannerImage # bannerImage
+    584edc1e-fead-421c-8620-6a09e3a2b670: pagebuilders # pagebuilders
     779c6a13-befe-47c5-9729-bea14ce40020: websitetitle # websitetitle
     897b7f07-b594-4d0e-91b4-d91914626ce5: introductionform # introductionform
     1774cf91-67ba-4ca3-8e05-0b08d289b4fb: navbar # navbar
@@ -74,6 +75,7 @@ meta:
     e91ba71a-c282-4bb7-83df-0ae627b2fca0: productPrice # productPrice
     ed6e297a-36d4-4752-b580-4724f4f062ba: FilterGeneration1 # FilterGeneration1
     fc00f804-b467-4408-9a42-fab4b41a9afa: introtext # introtext
+    fca1ab6e-e35b-40ba-a91b-2d22ec1e460e: pagebuilder # pagebuilder
     feb9e110-ba61-4cfc-bb00-93895a958b68: descriptionintrotitle # descriptionintrotitle
 plugins:
   cookie-consent:
