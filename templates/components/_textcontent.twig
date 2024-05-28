@@ -1,6 +1,9 @@
 
 {% do craft.app.view.registerCssFile('@web/css/textmanager.css') %}
 
+<div class="title-container">
+    <h1> {{ block.titlefield }} </h1>
+</div>
 <div class="positioning">
     <div class="wrapper">
         {% if block.positioningimage.one().title == "Left" %}
