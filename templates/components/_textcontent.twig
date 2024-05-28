@@ -2,20 +2,22 @@
 {% do craft.app.view.registerCssFile('@web/css/textmanager.css') %}
 
 <div class="positioning">
-    {% if block.positioningimage.one().title == "Left" %}
-        <div class="imageposition">
-            <img src=" {{ block.imagefield1.one().url() }}" alt="">
-        </div>
-        <div class="textposition">
-            <p> {{ block.textfield1 }} </p>
-        </div>
-    {% else %}
-        <div class="textposition">
-            <p> {{ block.textfield1 }} </p>
-        </div>
-        <div class="imageposition">
-            <img src=" {{ block.imagefield1.one().url() }}" alt="">
-        </div>
-    {% endif %}
+    <div class="wrapper">
+        {% if block.positioningimage.one().title == "Left" %}
+            <div class="imageposition">
+                <img src=" {{ block.imagefield1.one().url() }}" alt="">
+            </div>
+            <div class="textposition">
+                <p> {{ block.textfield1 }} </p>
+            </div>
+        {% else %}
+            <div class="textposition">
+                <p> {{ block.textfield1 }} </p>
+            </div>
+            <div class="imageposition">
+                <img src=" {{ block.imagefield1.one().url() }}" alt="">
+            </div>
+        {% endif %}
+    </div>
 </div>
 

@@ -1,23 +1,18 @@
-.positioning {
+.contact-section {
     display: flex;
     justify-content: center;
-    /*flex-direction: row;*/
     padding: 150px;
+    font-family: 'Bebas Neue', sans-serif;
 }
-.wrapper {
+
+.contact-wrapper {
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
 }
-.imageposition img {
-    max-width: 1000px;
-    height: auto;
-}
 
-.imageposition .textposition {
+.contact-info, .contact-form {
     flex: 1;
     margin: 10px;
 }
-
-
