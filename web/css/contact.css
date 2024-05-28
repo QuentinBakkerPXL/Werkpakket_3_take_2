@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1200px; /* Adjust the max-width as needed */
+    max-width: 1200px;
 }
 
 .contact-info, .contact-form {
@@ -22,10 +22,4 @@ body {
     margin: 10px;
 }
 
-.contact-info {
-    /* Additional styling for contact-info */
-}
-
-.contact-form {
-}
 

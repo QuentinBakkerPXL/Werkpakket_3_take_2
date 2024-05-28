@@ -1,0 +1,6 @@
+<h1>{{ block.contacttitle }}</h1>
+<p>{{ block.contacttext }}</p>
+
+<div class="contact-form">
+    {{ craft.formie.renderForm(block.contentform.one().handle) }}
+</div>

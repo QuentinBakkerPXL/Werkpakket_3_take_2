@@ -6,7 +6,9 @@ searchable: true
 settings:
   createButtonLabel: null
   entryTypes:
-    - ba861cca-b306-44a7-b606-4254c0e90a62 # pagebuildertab
+    - ba861cca-b306-44a7-b606-4254c0e90a62 # textcontent
+    - 8c7618b0-0bd5-4e54-9424-b23b2563f3e8 # formcontent
+    - 24900870-7d2a-493d-ae23-1c02a29c1511 # productcontent
   includeTableView: false
   maxEntries: null
   minEntries: null
