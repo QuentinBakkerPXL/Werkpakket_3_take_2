@@ -1,0 +1,22 @@
+
+
+
+
+.positioning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensure elements are spaced correctly */
+    flex-direction: row;
+}
+
+.imageposition img {
+    max-width: 500px;
+    height: auto;
+}
+
+.textposition {
+    padding: 0 20px; /* Adjust as needed for spacing */
+
+}
+
+

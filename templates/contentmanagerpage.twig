@@ -1,8 +1,8 @@
 {% extends "_layout.twig" %}
 {% hook 'after-body-start' %}
-{% do craft.app.view.registerCssFile('@web/css/managerpage.css') %}
 
 {% set blocks = entry.pagebuilder.all() %}
+{% do craft.app.view.registerCssFile('@web/css/managerpage.css') %}
 
 {% block content %}
 {% for block in blocks %}

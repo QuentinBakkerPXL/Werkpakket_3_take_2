@@ -1,4 +1,4 @@
-dateModified: 1716880076
+dateModified: 1716884581
 email:
   fromEmail: 12102082@student.pxl.be
   fromName: Timecraft
@@ -52,12 +52,14 @@ meta:
     41790cbe-d7bb-4e1d-916a-c0caf50704a1: productImage # productImage
     85751bc1-0bed-49a2-8899-09d9703e42f1: bannertext # bannertext
     872518e7-11d4-407b-a0cc-8defee2343c7: footer # footer
+    04822029-dd16-44f5-8826-54eeaef1ebb9: positioningimage # positioningimage
     24900870-7d2a-493d-ae23-1c02a29c1511: productcontent # productcontent
     47240369-8923-47f4-ad7a-9c580ef88ba3: Pagebuilder # Pagebuilder
     a24a8485-6759-4c11-b6ef-5c7c5f4a013b: contentform # contentform
     a338db41-cec4-4293-bb9e-6ea46c1dd4d1: websiteallproducts # websiteallproducts
     a9701a37-5606-4a68-9933-2a8a0909d468: formdescription # formdescription
     aaa5f5bc-a8f5-49e4-b7d2-c1a90a253f30: New # New
+    ac47fa50-0570-4d5f-afe0-2ea4c9377918: positioning # positioning
     b2f9b151-1a8d-4d13-a302-4200b13f4fc9: 'All products' # All products
     ba861cca-b306-44a7-b606-4254c0e90a62: textcontent # textcontent
     bb6d1994-9dd3-4b5c-b8cb-f3989d18b7b9: Product # Product
@@ -74,6 +76,7 @@ meta:
     dd41623c-6201-48c3-b44d-1c71245bed9b: productstoshow # productstoshow
     ddc804c8-bffd-4a07-91f7-74952c334afb: productWatches # productWatches
     debf30e4-2678-4815-83b9-560a3cb8bce2: Filter # Filter
+    e8e9a71b-46ec-4850-827f-80666c0b83c0: direction # direction
     e9f5ef54-fd07-4a91-b53e-543fd17c40af: websitename # websitename
     e34cb142-6c6b-40aa-9eb6-a21c5499d912: FilterProducts # FilterProducts
     e91ba71a-c282-4bb7-83df-0ae627b2fca0: productPrice # productPrice

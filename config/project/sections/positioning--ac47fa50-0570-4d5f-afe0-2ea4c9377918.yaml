@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - e8e9a71b-46ec-4850-827f-80666c0b83c0 # direction
+handle: positioning
+maxAuthors: 1
+name: positioning
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d5ffdd0e-008d-450c-9cd2-3dff37e2134a: # Timecraft
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: channel
