@@ -1,6 +1,13 @@
+.title-container {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
 .positioning {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 150px;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -32,4 +39,18 @@
 
 .textposition p {
     overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .imageposition, .textposition {
+        margin: 20px 0;
+    }
+
+    .imageposition img {
+        max-width: 100%;
+    }
 }
